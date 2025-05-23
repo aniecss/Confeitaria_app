@@ -1,4 +1,4 @@
-
+from controle import Controle
 
 def main():
     while True:
@@ -15,9 +15,9 @@ def main():
         opcao = int(input('Escolha uma opção: '))
 
         if opcao == 1:
-            return 'Fazer login'
+            Controle.login
         elif opcao == 2:
-            return 'Cadastrar usuario'
+            Controle.cadastrar_usuario
         elif opcao == 3:
             return 'Cadastrar loja'
         elif opcao == 4:
